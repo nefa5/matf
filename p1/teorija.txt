@@ -1,0 +1,318 @@
+1.3 Ko je i u kom veku konstruisao prvu mehaničku spravu na kojoj je bilo
+moguće sabirati prirodne brojeve, a ko je i u kom veku konstruisao prvu
+mehaničku spravu na kojoj je bilo moguće sabirati i množiti prirodne brojeve?
+Blez Paskal je prvi konstruisao 1642. godine mehanicku masinu koja je mogla da sabira i oduzima
+prirodne brojeve, masine su se zvale Paskaline. Lajbnic je prvi konstruisao masinu koja je mogla da
+radi sve 4 aritmeticke operacije 1672. godine
+
+Kada su nastali prvi elektronski racunari? Nabrojati nekoliko
+najznacajnijih.
+Nastali su krajem 1930-ih.
+• ABC (resavanje linearnih jednacina)
+• Kolos (desifrovanje nemackih poruka)
+• ENIAC (racunanje trajektorije projektila)
+
+Na koji nacin je programiran racunar ENIAC, a na koji racunar EDVAC?
+ENIAC se reprogramirao time sto su intervenisali na preklopnicima i kablovima, proces je mogao
+da traje nedeljama. EDVAC je racunar sa skadistenjem programa u memoriji i programiran je
+ucitavanjem programa iz glavne memorije; programiran je softverski
+
+Sta su procesorske instrukcije? Navesti nekoliko primera.
+Procesorke instrukcije su komande koje procesor razume: sabiranje, oduzimanje, mnozenje,
+deljenje, poredjenje.
+
+Memorijska hijerarhija sluzi da se unapredi funkcionisanje sistema, ide od najmanje (ali i najbrze
+CPU registarske memorije) pa sve do CD-DVD memorije
+
+Kes se uvodi jer su savremeni procesori postali znatno brzi od glavnih memorija, pre pristupa
+glavnoj memoriji procesor pristupa kesu, ako podatak tamo postoji, nazivamo to cache hit, ako
+
+Da li je kod na nekom masinskom jeziku prenosiv sa jednog na sve druge
+racunare? Da li asembler zavisi od masine na kojoj se koristi?
+Kod je prenosiv. Da, zavisi od procesora.
+
+
+Koje su osnovne prednosti digitalnog zapisa podataka u odnosu na
+analogni? Koji su osnovni problemi u koriscenju digitalnog zapisa podataka?
+Digitalni zapis ne zavisi od toga kakav je kvalitet medijuma na kome je zapisan, dok god su podaci
+koji su zapisani na tom medijumu razumljivi.
+Hornerova sema je postupak koji se koristi za jednostavnije izracunavanje neoznacenih brojeva
+
+Sta je to IEEE 754?
+IEEE 754 je standard za zapisivanje brojeva u pokretnom zarezu iz 1985. godine, od strane
+medjunarodne asocijacije Institut inzenjera elektrotehnike i elektronike
+Prvih 32 karaktera cine specijalni kontrolni karakteri. ASCII
+
+Navesti barem dve jednobajtne kodne strane koje sadrze cirilicne karaktere.
+ISO-8859-5 i Windows-1251.
+
+Nabrojati bar tri kodne seme u kojima moze da se zapise rec racunarstvo:
+Unicode, YUSCII, UTF-8.
+
+
+U cemu je razlika izmedu Unicode i UTF-8 kodiranja?
+Unicode sadrzi veliki broj nula koje zauzimaju puno prostora, zbog njih softver za rad u
+dokumentima u ASCII formatu ne moze da radi bez nekih izmena nad dokumentima kodiranim u
+UCS-2 standardu.
+UTF-8 je algoritam koji svakom dvobajtnom unicode karakteru dodeljuje odredjeni niz bajtova cija
+duzina varira od 1-3, ovaj algoritam omogucava da se citanjem pocetka samo jednog bajta odredi da
+li je u pitanju karakter zapisan koriscenjem jednog, dva ili tri bajta.
+
+Sta je to piksel? Sta je to sempl?
+Pravugaona matrica komponenti se naziva piksel. Sample je digitalno zapisani signal predstavljen
+nizom brojeva
+
+Da li je svaka urm izracunljiva funkcija intuitivno izracunljiva? Da li je
+svaka intuitivno izracunljiva funkcija urm izracunljiva?
+Svaka URM funkcija jeste intuitivno izracunljiva, jer mi mozemo da pratimo korake masine, da.
+
+Da li se nekim urm programom moze izracunati hiljadita cifra broja 21000?
+Moze, moze se svesti na sabiranje tj. u URMu, dodavanje i uz dovoljno vremena, doci do 1000.
+cifre
+
+Da li postoji urm program koji izracunava broj sqrt(2)? Da li postoji urm
+program koji izracunava n-tu decimalnu cifru broja sqrt(2), gde je n zadati
+prirodan broj?
+Ne moze da izracuna broj sqrt(2), ali moze se izracunati n-ta cifra tog broja, broj 2 dopunimo n
+nulama, gde n predstavlja n-tu decimal koju zelimo da izracunamo.
+
+
+Koliko ima razlicitih urm programa? Kakva je kardinalnost skupa urm
+programa u odnosu na kardinalnost skupa prirodnih brojeva? Kakva je
+kardinalnost skupa urm programa u odnosu na kardinalnost skupa realnih
+brojeva? Kakva je kardinalnost skupa urm programa u odnosu na kardinalnost
+skupa programa na jeziku C?
+Prebrojivo mnogo. Imaju istu kardinalnost kao prirodni brojevi. Prebrojivi su, ili ima ih prebrojivo
+mnogo. Nije ista, realnih ima neprebrojivo mnogo dok URM programa im prebrojivo mnogo.
+Ista je kardinalnost, oba skupa ima prebrojivo mnogo.
+
+Da li se svakom urm programu moze pridruziti jedinstven prirodan broj
+(razlicit za svaki program)? Da li se svakom prirodnom broju moze pridruziti
+jedinstven urm program (razlicit za svaki broj)?
+Da, moze, URM programa je prebrojivo mnogo, isto kao i prirodnih brojeva. Da
+
+Kako se naziva problem ispitivanja zaustavljanja programa? Kako glasi
+halting problem? Da li je on odluciv ili nije? Ko je to dokazao?
+Halting problem, on glasi: Ne postoji program koji moze za vrednosti P(x,y) da proveri da li se dati
+program (x) zaustavlja za ulaznu vrednost y. Nije odluciv. Alan Tjuring je to dokazao 1936. godine
+
+Da li postoji algoritam koji za drugi zadati urm program utvrdjuje da li se
+zaustavlja ili ne? - Ne.
+
+Da li postoji algoritam koji za drugi zadati urm utvrdjuje da li se
+zaustavlja posle 100 koraka? - Da
+
+Da li je moguce napisati urm program koji za drugi zadati urm program
+proverava da li radi beskonacno? - Ne.
+3.19. Da li je moguce napisati urm program koji za drugi zadati urm program
+proverava da li vraca vrednost 1? - Ne.
+
+Za koji programski jezik su izgradeni prvi interpretator i kompilator i ko je
+bio njihov autor? Koji su najkorisceniji programski jezici 1960-ih, koji 1970-ih,
+koji 1980-ih i 1990-ih, a koji danas? Sta je to strukturno, a sta objektno-
+orijentisano programiranje?
+Prvi interpretator i kopilator su napravljeni za jezik FORTRAN. Dzon Bakus.
+1960 - COBOL, LISP. 1970 - C, Pascal. 1980 – C++. 1990 - Java, krajem i C#
+danas - PHP, JavaScript, Python
+Strukturno programiranje predstavlja disciplinovan pristup programiranju, OOP olaksava izradu
+velikih programa i raspodelu posla unutar vecih programerskih timova.
+
+Staticki jezici zahtevaju od programera da definise svaki tip promenljivih i taj tip se ne menja kroz
+ceo program, dok dinamicki to sam predpostavlja iz zapisa u samom programu, moguce je cak i
+promena tipova promenljivih u samom programu
+
+
+.6. Koje su osnovne naredbe u programskim jezicima? Sta je to GOTO
+naredba i po cemu je ona specificna?
+Osnovne i najcesce koriscene naredbe su kontrole strukture (if-else-then) i petlje (for, while, do-
+while, repeat-until).
+
+4.7. Cemu sluze potprogrami? Koji su najcesce vrste potprograma? Cemu sluze
+parametri potprograma, a cemu sluzi povratna vrednost? Koji su najcesci nacini
+prenosa parametara?
+Potprogrami izoluju odredjena izracunavanja koja se kasnije mogu pozvati na vise razlicitih mesta u
+razlicitim kontekstima.
+Najcesve vrste su funkcije, procedure, sabrutine i metode.
+Parametri su ulazne vrednosti koje zadajemo a povratna vrednost sluzi za vracanje rezultata
+odredjene funkcije, npr ispisivanje na ekranu.
+
+.9. Sta su prednosti, a sta mane mogucnosti pristupa proizvoljnoj memoriji iz
+programa? Sta su sakupljaci otpada?
+Programi sa sakupljacima otpada su obicno sporiji nego bez jer odredjeno vreme odlazi na rad
+sakupljaca otpada, takodje imamo vecu kontrolu nad memorijom i mozemo da dodeljujemo
+vrednosti u memoriji samo za ono sto nam je potrebno, ali zbog ovoga postoji i veca sansa za
+gresku
+
+
+Jedan od
+problema je sto se prevodjenjem gubi svaka veza izmedju izvrsnog i izvnornog koda programa i
+najmanja izmena zahteva ponovno prevodjenje programa ili njegovih delova.
+
+
+Obicno se izvrsavaju znatno sporije ali je takodje moguce menjati deo
+koda i nije potrebno ponovno analiziranje celog koda.
+
+5.1. Kada je nastao programski jezik C? Ko je njegov autor? Za koji operativni
+sistem se vezuje nastanak programskog jezika C?
+C je nastao 1972. i razvio ga je Denis Rici. Vezuje se za UNIX.
+
+Koja je najpoznatija knjiga o jeziku C? Nabrojati sve zvanicne standarde
+jezika C.
+Najpoznatija knjiga o C-u je "The Programing Language C" koju su napisali Kernigen i Rici 1978.
+Standardi jezika su: K&R C , ANSI C i ISO C, C90, C99, C11.
+
+.5. Sta su to pretprocesorske direktive? Da li je #include <stdio.h>
+pretprocesorska direktiva, naredba C-a ili poziv funkcije iz standardne
+biblioteke?
+Pretprocesorska direktiva je posebna naredba u izvornom kodu programa koja se izvršava pre nego
+se program prevede. Ove direktive se razlikuju od ostalih linija programa: počinju znakom # i
+završavaju se krajem reda, a ne tačkom i zarezom.
+
+. Sta su to datoteke zaglavlja?
+To su biblioteke koje sadrze konstante i deklaracije funkcija.
+
+7. Sta je standardna biblioteka programskog jezika?
+Biblioteka koja sadrzi vec deklarisane funkcije
+
+6. Sta je to inicijalizacija promenljive? U opstem slucaju, ukoliko celobrojna
+promenljiva nije inicijalizovana, koja je njena pocetna vrednost?
+Dodeljivanje vrednosti nekoj promenljivoj.
+Njena pocetna vrednost nije odredjena i poziva se neka vrednost koja je postojala pre nje u sistemu
+
+9. Koliko bajtova zauzima podatak tipa char? Ukoliko nije navedeno, da li se
+podrazumeva da je podatak ovog tipa označen ili neoznačen?
+Zauzima tacno 1 bajt. Standard ne propisuje da li je signed ili unsigned, to zavisi od sistema
+
+10. Koja je najmanja, a koja najveća vrednost koju može da ima signed char?
+Najmanja vrednost je -128, a najveca 127.
+
+.12. Koja ograničenja važi za dužine u bajtovima tipova short int, int, long int?
+Short int zauzima bar 2 bajta, int bar koliko i short int, long int bar koliko i int i bar 4 bajta
+
+.13. Ukoliko je tip promenljive int, da li se podrazumeva da je njena vrednost
+označena ili neoznačena ili to standard ne propisuje?
+Podrazumeva se da je signed.
+
+6.15. Koja ograničenja važi za dužine u bajtovima tipova float i double?
+Nije propisano koliko bajtova zauzimaju, ali double zauzima bar koliko i float.
+
+.19. Sta je to asocijativnost, a sta prioritet operatora?
+Prioritet operatora definise redosled kojim ce se 2 razlicita operatora primeniti na izrazu.
+Asocijativnost definise redosled kojim ce se 2 ista operatora izvrsiti.
+
+6.20. Navesti neki operator jezika C koji ima levu i neki operator koji ima desnu
+asocijativnost.
+-, *, /, % ima levu asocijativnost, opetator = ima desnu, i ~ (bitovska negacija)
+
+6.21. Kakav je odnos prioriteta unarnih i binarnih operatora?
+Unarni imaju veci prioritet od binarnih
+
+22. Kakav je odnos prioriteta logickih, aritmetickih i relacijskih operatora?
+Aritmeticki imaju prioritet u odnosu na relacijske koji imaju prioritet u odnosu na logicke.
+
+.23. Kakav je odnos prioriteta operatora dodele i ternarnog operatora?
+Ternarni imaju veci prioritet u odnosu na dodelu
+
+24. Da li dodele spadaju u grupu nisko ili visoko prioritetnih operatora? Koji
+operator jezika C ima najnizi prioritet?
+Niskog, = ima najnizi prioritet.
+
+Lenjo izracunavanje je izracunavanje samo neophodnog, sto znaci da se do nekih izraza mozda nece
+ni doci
+
+6.28. Navesti pravila koja se primenjuju prilikom primene aritmetickih
+operatora.
+1) Ako je bar jedan od operanada tipa long double i drugi se promovise u long double;
+2) inace, ako je bar jedan od operanada tipa double i drugi se promovise u double;
+3) inace, ako je bar jedan od operanada tipa float i drugi se promovise u float;
+4) inace, svi operandi tipa char i short se promovisu u int.
+5) ako je jedan od operanada tipa long long i drugi se prevodi u long long;
+6) inace, ako je jedan od operanada tipa long i drugi se prevodi u long.
+U slucaju koriscenja neoznacenih operanada (tj. mesanja oznacenih i neoznacenih operanada),
+pravila konverzije su nesto komplikovanija:
+1) Ako je neoznaceni operand siri11 od oznacenog, oznaceni operand se konvertuje u neoznaceni
+siri tip;
+2) inace, ako je tip oznacenog operanda takav da moze da predstavi sve vrednosti neoznacenog
+tipa, tada se neoznaceni tip prevodi u siri, oznaceni.
+3) inace, oba operanda se konvertuju u neoznaceni tip koji odgovara oznacenom tipu.
+
+30. Kada je u deklaraciji niza dozvoljeno izostaviti njegovu dimenziju?
+Kada deklarisemo sa inicijalizacijom.
+
+.32. Kakva je veza izmedu nabrojivog (enum) i celobrojnog tipa u C-u?
+Moguce je deklarisati promenljive, enum se koristi za konkretne brojeve u programu, nikada nije
+isti.
+.2. Ukoliko se u naredbi for (e1; e2; e3) ... izostavi izraz e2, koja ce biti njegova
+podrazumevana vrednost?
+Uvek tacna
+
+8.1. Sta je to deklaracija funkcije, a sta je to definicija funkcije? U kojim
+slucajevima se koriste deklaracije?
+Deklaracija funkcije ukazuje prevodiocu da ce u programu biti koriscena funkcija sa odredjenim
+tipom povratne vrednosti i parametrima odredjenog tipa. Definicija funkcije navodi deklaracije i
+naredbe funkcije.
+Deklarisanje se koristi kada imamo vise funkcija koje medjusobno pozivaju jedna drugu, da ne bi
+smo morali da ih redjamo u redosledu i brinemo koja poziva koju, mozemo ih deklarisati na
+pocetku programa gde ce kompajler samo da procita njihove vrednosti i kasnije da ih definisiemo
+
+
+4. Sta se navodi kao tip povratne vrednosti za funkciju koja ne vraca rezultat?
+Da li takva funkcija mora da sadrzi naredbu return? Da li takva funkcija moze
+da sadrzi naredbu return? Sta se navodi kao argument return naredbe?
+Void. Ne mora. Moze. U funkciji tipa void, ne navodi se nista: return
+
+8.5. Kako se prenose argumenti funkcija u C-u? Da li se u nekoj situaciji prenos
+argumenata ne vrsi po vrednosti?
+Po vrednosti. Samo po vrednosti, ne.
+
+.6. Koje su informacije od navedenih, tokom kompilacije, pridruzene imenu
+niza: (i) adresa pocetka niza; (ii) tip elemenata niza; (iii) broj elemenata niza;
+(iv) adresa kraja niza?
+Adresa pocetka niza, tip elemnata niza
+
+8.11. Kako se vrsi prenos unija u funkciju?
+Po vrednosti.
+
+.2. U kom obliku se isporucuje standardna C biblioteka?
+U obliku masinskog koda, linkovana staticki.
+
+9.4. Sta su jedinice prevodenja? Sta su datoteke zaglavlja? U kojoj fazi se od vise
+datoteka grade jedinice prevodenja?
+Jedinice prevodjenja - skup vise datoteka zaglavlja i jednog c programa
+Datoteke zaglavlja – zasebne datoteke u koje se idvajaju deklaracije
+U pretprocesiranju.
+.5. Sta su objektni moduli? Sta sadrze? Da li se mogu izvrsavati? Kojim
+procesom nastaju objektni moduli? Kojim procesom se od objektnih modula
+dobija izvrsni program?
+Objektni moduli su rezultat rada kompilatora. Sadrze sve funkcije u masinksom kodu i podatke tj.
+memorijski prostor rezervisan za promenljive. Ne. Kompilacijom. Povezivanjem.
+
+.7. Sta znaci da u objektnim modulima pre povezivanja adrese nisu korektno
+razresene?
+Znaci da ne mogu da se pozovu niti izvrsavaju jer jos uvek ne znaju na sta trebaju da pokazuju
+
+.9. Sta je staticko, a sta dinamicko povezivanje?
+Staticko povezivanje se vrsi nakon kompilacije, ono u izvrsnu datoteku umece masinski kod svih
+biblioteckih funkcija.
+Dinamicko povezivanje se povezuje prilikom pokretanja programa. Dinamicke biblioteke zajedno sa
+programom ucitavaju u memoriju racunara i adrese poziva biblioteckih funkcija
+
+.18. Objasniti razliku izmedu makroa i funkcija.
+Makroi su samo zamena teksta i ne primaju/prenose argumente. Funkcije sadrze naredbe i
+argumente, rezervise se prostor u memoriji za njih i vrse se radnje nad njima
+
+.32. Ukoliko je za neku lokalnu promenljivu naveden kvalifikator static, sta ce
+biti sa njenom vrednoscu nakon kraja izvrsavanja funkcije u kojoj je
+deklarisana?
+Cuva se.
+
+10.6. Kako se oznacava genericki pokazivacki tip? Za sta se on koristi? Da li se
+pokazivac ovog tipa moze dereferencirati?
+Void * . Ukazuje na promenljive razlicitog tipa . Ne, zato sto nije moguće odrediti tip takvog izraza
+kao ni broj bajtova u memoriji koji predstavljaju njegovu vrednost.
+
+10.9. Ukoliko je potrebno da funkcija vrati više od jedne vrednosti, kako se to
+može postići?
+Preko argumenata.
+
+
